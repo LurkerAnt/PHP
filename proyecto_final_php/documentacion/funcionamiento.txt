@@ -1,0 +1,29 @@
+Funcionamiento:
+
+1.  Empieza en el index.php, te permite crear un personaje o bien cargar uno de la base de datos.
+2.  Si se crea un personaje te lo graba en la base de datos (personajeGuardado.php)y te dirige por formulario a battle.php
+3.  Si se carga uno (cargarPersonaje.php) , hace un select de todos los personajes de la base de datos, 
+    los muestra como desplegable y los lanzas por formulario a la batalla (battle.php)
+4.  En el combate se me han complicado las cosas y cada vez que recargaba la pagina se me ha perdido la consistencia de los datos
+    no he podido arreglarlo pero al menos al entrar te genera dos Objetos "personaje" y "enemigo" de la clase "Personaje", 
+    el primero con lo mandado por formulario el segundo "randomizado".
+5   En la pantalla de guardar puntuaciones, si viene una por formulario te permite guardarla sin más. 
+    Como no he sido capaz de hacer que el combate funcione he hecho trampas aqui, he creado un formulario falso para introducir puntuaciones falsas.
+    El crud funciona asique eso que me llevo.
+
+Notas adicionales:
+
+No he metido cookies porque no daba a basto para ello pero probablemente con cookies hubiera solucionado el asunto del combate.
+He optado por crear un archivo de requires.php para tener ahi todos los require_once necesarios y no tener que ponerlos en cada pagina.
+El codigo esta separado para mayor claridad, aunque no se si son necesarios tantos phps.
+El mayor problema ha sido el combate he querido abarcar demasiado, tendre que ver en un futuro como solucionarlo.
+Los CRUD me han dado problemas por no realizar bien los prepared statements,
+ pero ya te puedo asegurar que despues de esta no me vuleve a pasar, tipico error de novato por falta de trabajo con el material.
+
+El material que he consultado está por ahi comentado, tambien he cogido un fragmento de conexion del crud de la tienda porque no sabia como hacerlo en PDO hasta hoy.
+Tambien he recogido algún que otro método y lo he modificado para que se adapte a la funcionalidad del programa, no voy a decir que lo he hecho desde 0 porque seria
+mentira y al menos modificandolo y trabajandolo lo he APRENDIDO a usar en la tarde de hoy.
+
+(Alain este troncho es tanto para ti como para mi, por si algún dia le vuelvo a meter mano saber por donde van los tiros)
+
+Dionisio Fernández 22/06/2020 1:29

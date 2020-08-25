@@ -1,0 +1,8 @@
+Al crear el personaje te da a elegir opciones y añade el nombre del personaje. 
+Tambien te permite cargar personaje.
+Randomiza los stats y te permite hacerlo hasta que te guste.
+Te lleva a una pagina donde se te enseña los stats del character y te permite grabarlo.
+Lo graba en una cookie
+A continuación te permite o bien testearlo en combate(No tuve tiempo de hacerlo)
+o bien te permite crear otro.
+Al seleccionar personaje(aqui me he quedado, lanza parametros para tratarlos por detras)
